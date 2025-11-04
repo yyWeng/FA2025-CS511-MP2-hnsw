@@ -29,4 +29,4 @@ for size in [100000, 300000, 500000]:
 # 1M 直接复制
 os.makedirs("datasets/sift_1m", exist_ok=True)
 os.system("cp sift/sift_base.fvecs datasets/sift_1m/")
-print("✅ Copied 1M dataset.")
+print("✅ Copied 1M dataset..")
